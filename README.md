@@ -1,3 +1,13 @@
+# Zerto Post-Failover IP Update Script
+The ZertoCFFailoverUpdate.ps1 script can be used as a post script with Zerto Virtual Replication to update your CloudFlare A records when doing a failover or move operation. 
+
+You will need to edit the failover script and add in what FQDN's need updated and what IP address they need updated to.
+
+This script is built on the PoSh-Security CloudFlare Powershell module.
+
+
+
+
 # Posh-CloudFlare
 PowerShell module for managing CloudFlare domains
 
